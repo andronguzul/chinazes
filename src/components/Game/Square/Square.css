@@ -1,0 +1,24 @@
+.game-square {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-color: grey;
+  cursor: pointer;
+}
+.game-square:hover {
+  background-color: rgb(171, 171, 171);
+}
+
+.to-click {
+  background-color: rgb(74, 74, 180);
+}
+.to-click:hover {
+  background-color: rgb(74, 74, 180);
+}
+
+.red:active {
+  background-color: red;
+}
+.green:active {
+  background-color: green;
+}
