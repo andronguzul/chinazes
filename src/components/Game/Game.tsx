@@ -33,7 +33,7 @@ export const Game: FC = () => {
   return (
     <div className='game-container'>
       <div className='game-title'>
-        Your score: {score}
+        Your current score: {score}
       </div>
       <div className='game'>
         {[...Array(9).keys()].map(key => (
